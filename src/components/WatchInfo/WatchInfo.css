@@ -1,0 +1,42 @@
+.watch-info{
+    width: 50%;
+    margin: 40px auto;
+}
+.watch-info img{
+    width: 350px;
+    margin: 20px;
+}
+.watch-info h1{
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0;
+    color: #353b48;
+}
+.watch-info p{
+    font-size: 15px;
+    font-family: inherit;
+    color: #353b48;
+}
+.info-list{
+    list-style: none;
+    padding: 0;
+}
+.info-list span{
+    font-weight: 500;
+    margin-right: 10px;
+}
+.info-list p{
+    margin: 0;
+}
+.btn-buy{
+    border: none;
+    background: #353b48;
+    color: #eee;
+    margin-top: 20px;
+    padding: 10px 15px;
+    transition: .3s;
+    cursor: pointer;
+}
+.btn-buy:hover{
+    background: #22262e;
+}

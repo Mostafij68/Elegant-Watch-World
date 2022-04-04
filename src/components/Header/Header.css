@@ -1,0 +1,34 @@
+.header{
+    width: 100%;
+    height: 65px;
+    background: #353b48;
+    color: #eee;
+    display: flex;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+nav h2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0;
+    font-family: cursive;
+}
+.menu-items{
+    display: flex;
+}
+.menu-items a{
+    text-decoration: none;
+    margin: 0 15px;
+    color: #aab5c5;
+    transition: .1s;
+}
+.menu-items a:hover {
+    border-bottom: 2px solid #eee;
+    color: #eee;    
+}

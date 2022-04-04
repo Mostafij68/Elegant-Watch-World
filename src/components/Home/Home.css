@@ -1,0 +1,40 @@
+.home-section{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.watch-info h1 {
+    font-weight: 400;
+    font-size: 45px;
+    margin: 0;
+    color: #353b48;
+}
+.w-name{
+    color: #2D9687;
+}
+.watch-info p {
+    font-size: 15px;
+    font-family: inherit;
+    color: #353b48;
+}
+.watch-img{
+    text-align: right;
+}
+.watch-img img {
+    width: 60%;
+}
+.btn-details{
+    border: none;
+    background: #353b48;
+    color: #eee;
+    margin-top: 20px;
+    padding: 10px 15px;
+    transition: .3s;
+    cursor: pointer;
+}
+.btn-details:hover{
+    background: #22262e;
+}
