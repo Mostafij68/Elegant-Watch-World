@@ -1,9 +1,9 @@
 import React from 'react';
+import './Reviews.css'
 
 const Reviews = () => {
     return (
-        <div>
-            <h2>reviews</h2>
+        <div className='revi'>
         </div>
     );
 };

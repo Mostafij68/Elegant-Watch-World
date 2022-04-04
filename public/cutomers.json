@@ -1,0 +1,40 @@
+[
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "img": "./customers/customer-1.jpg",
+      "comment": "While this isn't a fancy Apple Watch, it does everything I needed it to without the jaw dropping cost. You also don't have to pay a monthly membership to use features like O2 saturation the way you have to with FitBit watches. It also looks really nice. It tracks my heart rate, oxygen levels, sleep, steps, and much more. The watch does continuous heart rate monitoring, unlike the Apple which doesn't. I can also alert my emergency contacts and send them my location if I need to. I purchased it more for medical reasons and I am very happy with this watch. Great price and better function for my needs."
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "img": "./customers/customer-2.jpg",
+      "comment": "I was a little bit hesitant to buy the Venu SQ because my last Garmin watch was so heavy on features that I didn't know how to use (and honestly don't need.) If you're like me, a casual athlete, maybe you're into fitness walking or doing light yoga... or even a new runner, this is probably the watch for you. It doesn't have all of the frills of some of Garmin's other products, and it is very simple to navigate! I'm all about simplicity because I'm kind of 'computer stupid.' You should get it. You'll be pleasantly surprised like I was!"
+    },
+    {
+      "id": 3,
+      "name": "Clementine Bauch",
+      "img": "./customers/customer-3.jpg",
+      "comment": "The watch does what it says it will do. However, it leaves out some very important features that are covered by the Forerunner and Fenix lines. If you are training and want insight for recovery and progress, this unit provides neither. No recovery time, no performance indicators or insight. Seems odd to leave that out, and those are important metrics for anyone into fitness. Actually, those are the MOST important metrics. (How hard did you push, are you progressing, how hard or easy to take the next workout, etc)"
+    },
+    {
+      "id": 4,
+      "name": "Patricia Lebsack",
+      "username": "Karianne",
+      "img": "./customers/customer-4.jpg",
+      "comment": "I'm a big fan of Garmin products, I own a VivoActive 3 and I bought this Venu SQ for my wife to replace a cheap Amazefit she was wearing for the past 3 years. These devices require some technical knowledge to play with the interface and customize it, but once you configure it the way you like it is awesome. Battery life is amazing, so far using it 24hr last 6 days between charges... take that Apple watch!."
+    },
+    {
+      "id": 5,
+      "name": "Chelsey Dietrich",
+      "img": "./customers/customer-5.jpg",
+      "comment": "Love this smartwatch. This is the 1st smartwatch I've purchased so I have nothing to compare it to, however I love its capabilities. I love the body battery tracking with stress level indications, its help me make some positive changes in my life style. I did notice sleep does not appear as accurate as the Fitbit I had previously but I do like the feature and sometimes just edit the times if I know they are off. I love the GPS feature for my runs and the ability to have music on the watch without needing my phone. The app works well. I've had no problems. I would definitely recommend"
+    },
+    {
+      "id": 6,
+      "name": "Mrs. Dennis Schulist",
+      "username": "Leopoldo_Corkery",
+      "img": "./customers/customer-6.jpg",
+      "comment": "Took the plunge to leave my Samsung Galaxy 4 and get the Venu 2 Plus. There is no comparison when you're reviewing features or want higher quality accuracy. The call quality is also way better. The Fungal - I see the reviews and pics of the rashes people are getting from this band. My husband has had the Venu 2 for almost a year and has suffered from the same thing. I recommend cleaning your watch at the end of EVERY day. Just a little squirt of handsanitizer on a towel, wipe it over and let it dry completely. Make sure your wrist is clean too. Don't put this watch on if your skin is still damp from a shower. My husband has had zero issues since he made this part of his routine. No idea why this happens but at least we've found a solution for us."
+    }
+  ]
