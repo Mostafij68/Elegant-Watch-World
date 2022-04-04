@@ -1,0 +1,12 @@
+.reviews-section{
+    width: 90%;
+    margin: 0 auto;
+}
+.reviews-section h1{
+    margin-top: 50px;
+}
+.reviews{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}

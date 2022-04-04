@@ -8,7 +8,7 @@ const Header = () => {
             <nav>
                 <h2>Elegant Watch World</h2>
                 <div className='menu-items'>
-                    <CustomLink to='/home'>Home</CustomLink>
+                    <CustomLink to='/'>Home</CustomLink>
                     <CustomLink to='/reviews'>Reviews</CustomLink>
                     <CustomLink to='/dashboard'>Dashboard</CustomLink>
                     <CustomLink to='/blogs'>Blogs</CustomLink>

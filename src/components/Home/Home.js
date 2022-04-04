@@ -1,11 +1,14 @@
-import React, { useEffect, useState } from 'react';
 import Img from '../../image/Garmin Venu Sq, GPS Smartwatch.jpg';
 import './Home.css'
 import { useNavigate } from 'react-router-dom';
 import {faStar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import useData from '../hook/useData';
 
 const Home = () => {
+    // fetch data
+    const [reviews, setReviews] = useData([])
+
     const navigate = useNavigate();
 
     // watch infomation button
@@ -15,15 +18,8 @@ const Home = () => {
 
     // Reviews all button
     const handleSeeAllReviews = () =>{
-        navigate('reviews')
+        navigate('reviews');
     };
-
-    const [reviews, setReviews] = useState([]);
-    useEffect(() => {
-        fetch('cutomers.json')
-            .then(res => res.json())
-            .then(data => setReviews(data))
-    }, []);
 
     const newReviews = reviews.slice(0, 3);
 
