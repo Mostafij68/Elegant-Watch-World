@@ -7,7 +7,7 @@ import './Reviews.css'
 const Reviews = () => {
     const [reviews, setReviews] = useData([])
     return (
-        <div className='reviews-section'>
+        <div className='reviews-page'>
             <h1>What our Customer says!</h1>
             <div className="reviews">
             {

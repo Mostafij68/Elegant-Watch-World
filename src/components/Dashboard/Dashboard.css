@@ -1,0 +1,30 @@
+.dashboard{
+    width: 90%;
+    margin: 0 auto;
+}
+.dashboard h2{
+    font-weight: 400;
+    font-size: 45px;
+    margin: 20px;
+    text-align: center;
+    color: #353b48;
+}
+.charts-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.bar-chart h3{
+    font-weight: 500;
+    font-size: 25px;
+    margin: 20px;
+    text-align: center;
+    color: turquoise;
+}
+
+.composed-chart h3{
+    font-weight: 500;
+    font-size: 25px;
+    margin: 20px;
+    text-align: center;
+    color: orangered;
+}

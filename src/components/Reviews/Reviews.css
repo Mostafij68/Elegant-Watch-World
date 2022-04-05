@@ -1,9 +1,13 @@
-.reviews-section{
+.reviews-page{
     width: 90%;
     margin: 0 auto;
 }
-.reviews-section h1{
+.reviews-page h1{
+    font-weight: 400;
     margin-top: 50px;
+    font-size: 45px;
+    text-align: center;
+    color: #353b48;
 }
 .reviews{
     display: grid;
