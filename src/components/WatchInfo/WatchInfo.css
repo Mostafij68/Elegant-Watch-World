@@ -40,3 +40,13 @@
 .btn-buy:hover{
     background: #22262e;
 }
+
+@media only screen and (max-width: 660px){
+    .watch-info {
+        width: 90% !important;
+        margin: 30px auto !important;
+    }
+    .watch-info img {
+        width: 90% !important;
+    }
+}

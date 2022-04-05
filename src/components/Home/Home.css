@@ -72,3 +72,46 @@
     text-align: center;
     margin: 20px 0;
 }
+
+/* tablet brackpoint */
+@media only screen and (max-width: 768px) {
+    .header-section {
+        padding: 30px 0;
+        padding-bottom: 50px;
+    }
+    .watch-img {
+        width: 50%;
+    }
+    .watch-img img{
+        width: 70%;
+    }
+    .reviews{
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+  }
+  @media only screen and (max-width: 660px){
+    .header-section{
+        flex-direction: column-reverse;
+    }
+    .watch-img img {
+        width: 100%;
+        height: 200px;
+    }
+    .watch-info {
+        width: 90% !important;
+        margin: 10px auto !important;
+    }
+    .watch-info h1 {
+        font-size: 30px !important;
+    }
+    .watch-info p {
+        font-size: 13px !important;
+    }
+
+    .reviews-section h1 {
+        font-size: 35px !important;
+    }
+    .reviews{
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+  }

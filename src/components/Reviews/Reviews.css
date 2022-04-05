@@ -9,8 +9,25 @@
     text-align: center;
     color: #353b48;
 }
-.reviews{
+.reviews-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+}
+
+@media only screen and (max-width: 768px){
+    .reviews-page h1 {
+        font-size: 40px;
+    }
+    .reviews-container {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+@media only screen and (max-width: 660px){
+    .reviews-page h1 {
+        font-size: 35px;
+    }
+    .reviews-container {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
 }

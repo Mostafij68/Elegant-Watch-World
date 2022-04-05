@@ -28,3 +28,17 @@
     text-align: center;
     color: orangered;
 }
+
+@media only screen and (max-width: 768px){
+    .dashboard h2 {
+        font-size: 40px !important;
+    }
+}
+@media only screen and (max-width: 660px){
+    .dashboard h2 {
+        font-size: 35px !important;
+    }
+    .charts-container{
+        grid-template-columns: 1fr !important;
+    }
+}

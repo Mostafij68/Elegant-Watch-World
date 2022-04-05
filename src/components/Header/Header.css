@@ -13,6 +13,9 @@ nav{
     width: 90%;
     margin: 0 auto;
 }
+.bars-icon{
+    display: none;
+}
 nav h2 {
     font-size: 25px;
     font-weight: 400;
@@ -31,4 +34,48 @@ nav h2 {
 .menu-items a:hover {
     border-bottom: 2px solid #eee;
     color: #eee;    
+}
+@media only screen and (max-width: 660px){
+    nav{
+        position: relative;
+        justify-content: center;
+
+    }
+    .bars-icon{
+        display: block;
+        color: #eee;
+        position: absolute;
+        z-index: 99;
+        font-size: 25px;
+        left: 0;
+    }
+    .menu-items{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        top: 0;
+        background: #353b48;
+        position: absolute;
+    }
+    .top-0{
+        top: 0;
+        transition-duration: 500ms;
+    }
+    .-top-200{
+        top: -200px;
+    }
+    .menu-items a{
+        text-decoration: none;
+        display: block;
+        margin: 10px 0;
+        color: #aab5c5;
+        transition: .1s;
+    }
+}
+@media only screen and (max-width: 380px){
+    nav h2 {
+        font-size: 20px;
+    }
 }
