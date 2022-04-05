@@ -1,9 +1,8 @@
 import Img from '../../image/Garmin Venu Sq, GPS Smartwatch.jpg';
 import './Home.css'
 import { useNavigate } from 'react-router-dom';
-import {faStar } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import useData from '../hook/useData';
+import CustomerFeedback from '../CustomerFeedback/CustomerFeedback';
 
 const Home = () => {
     // fetch data
@@ -39,23 +38,10 @@ const Home = () => {
                 <h1>Customer Feedback</h1>
                 <div className='reviews'>
                     {
-                        newReviews.map(review => <div className="review-items">
-                            <div className='customer'>
-                                <img src={review.img} alt="" />
-                                <h4>{review.name}</h4>
-                            </div>
-                            <span className='rating-star'>
-                                <FontAwesomeIcon icon={faStar}/>
-                                <FontAwesomeIcon icon={faStar}/>
-                                <FontAwesomeIcon icon={faStar}/>
-                                <FontAwesomeIcon icon={faStar}/>
-                                <FontAwesomeIcon icon={faStar}/>
-                            </span>
-                            <p>{review.comment}</p>
-                        </div>)
+                        newReviews.map(review => <CustomerFeedback key={review.id} review={review}/>)
                     }
                 </div>
-                <div onClick={handleSeeAllReviews} id='btn'><button className='btn-reviews'>See All Reviews</button></div>
+                <div id='btn'><button onClick={handleSeeAllReviews} className='btn-reviews'>See All Reviews</button></div>
             </div>
         </div>
     );

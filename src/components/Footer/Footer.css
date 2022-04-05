@@ -1,0 +1,12 @@
+.Footer-section{
+    margin-top: 50px;
+    width: 100%;
+    background: #353b48;
+    color: #eee;
+    text-align: center;
+}
+.Footer-section p{
+    font-size: .9rem;
+    padding: 20px 0;
+    margin: 0;
+}
